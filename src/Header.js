@@ -15,6 +15,7 @@ function isSameOrigin(href) {
  */
 
 const crossOriginDownload = href => event => {
+  return
   if (!isSameOrigin(href)) {
     // native download will be triggered by `download` attribute
     return
