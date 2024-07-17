@@ -15,8 +15,7 @@
     "build": "npm run build-component && npm run build-demo",
     "clean": "rm -rf lib es demo/dist",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run",
-    "install": "npm run build"
+    "cypress:run": "cypress run"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.2",
